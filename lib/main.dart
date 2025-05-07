@@ -1,7 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:first_app/gradient_container.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    const MaterialApp(
+      home: Scaffold(
+        body: GradientContainer("My App is here",
+        colors: [
+          Color.fromARGB(255, 1, 143, 223), 
+          Color.fromARGB(255, 15, 57, 81)]),
+      )
+    ),
+  );
 }
 
 // With Flutter, you create user interfaces by combining "widgets"
