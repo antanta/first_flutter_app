@@ -14,7 +14,6 @@ class GradientContainer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    //text = "d";
     return Container(
       // Note no const
       decoration: BoxDecoration(
