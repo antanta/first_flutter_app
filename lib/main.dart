@@ -1,17 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:first_app/gradient_container.dart';
+import 'package:first_app/content_reciever.dart';
+//import 'package:share_plus/share_plus.dart';
 
 void main() {
-  runApp(
-    const MaterialApp(
-      home: Scaffold(
-        body: GradientContainer("My App is here",
-        colors: [
-          Color.fromARGB(255, 1, 143, 223), 
-          Color.fromARGB(255, 15, 57, 81)]),
-      )
-    ),
-  );
+  runApp(const ContentReciever(
+    
+  ));
+  // First app
+  // runApp(
+  //   const MaterialApp(
+  //     home: Scaffold(
+  //       body: GradientContainer("My App is here",
+  //       colors: [
+  //         Color.fromARGB(255, 1, 143, 223), 
+  //         Color.fromARGB(255, 15, 57, 81)]),
+  //     )
+  //   ),
+  // );
 }
 
 // With Flutter, you create user interfaces by combining "widgets"
@@ -38,10 +44,10 @@ class MyApp extends StatelessWidget {
         body: Container(
           width: double.infinity,
           padding: const EdgeInsets.all(12),
-          child: Column(
+          child: const Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
-            children: const [
+            children: [
               Text(
                 'Flutter - The Complete Guide',
                 textAlign: TextAlign.center,
