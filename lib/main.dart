@@ -8,16 +8,16 @@ void main() {
     
   ));
   // First app
-  // runApp(
-  //   const MaterialApp(
-  //     home: Scaffold(
-  //       body: GradientContainer("My App is here",
-  //       colors: [
-  //         Color.fromARGB(255, 1, 143, 223), 
-  //         Color.fromARGB(255, 15, 57, 81)]),
-  //     )
-  //   ),
-  // );
+  //runApp(
+  //  const MaterialApp(
+  //    home: Scaffold(
+  //      body: GradientContainer("My App is here",
+  //      colors: [
+  //        Color.fromARGB(255, 1, 143, 223), 
+  //        Color.fromARGB(255, 15, 57, 81)]),
+  //    )
+  //  ),
+  //);
 }
 
 // With Flutter, you create user interfaces by combining "widgets"
